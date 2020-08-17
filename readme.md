@@ -1,5 +1,7 @@
 # Nova List Card
 
+[![Latest Stable Version](https://poser.pugx.org/thijssimonis/nova-list-card/v)](//packagist.org/packages/thijssimonis/nova-list-card) [![Total Downloads](https://poser.pugx.org/thijssimonis/nova-list-card/downloads)](//packagist.org/packages/thijssimonis/nova-list-card) [![License](https://poser.pugx.org/thijssimonis/nova-list-card/license)](//packagist.org/packages/thijssimonis/nova-list-card)
+
 List rows in a table card. For example the 5 latest users.
 
 ![screenshot01](docs/screenshot01.png)
@@ -75,4 +77,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](LICENSE.md).
+This project is licensed under the MIT License - see the [MIT license](license) file for details

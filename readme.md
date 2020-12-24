@@ -67,6 +67,28 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
 }
 ```
 
+## Inline with heading
+
+```php
+<?php
+
+use App\User;
+use ThijsSimonis\NovaListCard\NovaListCard;
+
+class NovaServiceProvider extends NovaApplicationServiceProvider
+{
+    protected function cards(): array
+    {
+        return [
+            (new NovaListCard())
+                ->title(__('5 latest users'))
+                ->heads([__('ID'), __('Name'))
+                ->rows(User::select('id', 'name')->orderBy('created_at', 'DESC')->limit(5)->get()),
+        ];
+    }
+}
+```
+
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/thijssimonis/nova-list-card/tags).

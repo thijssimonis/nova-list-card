@@ -14,6 +14,7 @@ class NovaListCard extends Card
     {
         $this->withMeta([
             'title' => __(Nova::humanize($this)),
+            'heads' => [],
             'rows' => [],
         ]);
     }
@@ -21,6 +22,13 @@ class NovaListCard extends Card
     public function title($title): self
     {
         $this->withMeta(['title' => $title]);
+
+        return $this;
+    }
+
+    public function heads(array $heads): self
+    {
+        $this->withMeta(['heads' => $heads]);
 
         return $this;
     }

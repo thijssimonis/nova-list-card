@@ -2,6 +2,7 @@
     <card class="flex flex-col h-auto">
         <h1 class="text-90 font-normal text-2xl p-4">{{ card.title }}</h1>
         {{ card.view }}
+        <div class="overflow-hidden overflow-x-auto relative">
         <table class="table w-full">
             <thead>
                 <th v-for="(head, index) in card.heads" :key="index" class="text-left">
@@ -42,6 +43,7 @@
                 </tr>
             </tbody>
         </table>
+        </div>
     </card>
 </template>
 

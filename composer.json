@@ -25,5 +25,11 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "scripts": {
+        "format": "vendor/bin/php-cs-fixer fix ."
+      },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0"
+    }
 }

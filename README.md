@@ -89,14 +89,19 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
 }
 ```
 
-## Versioning
+## Changelog
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/thijssimonis/nova-list-card/tags).
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Authors
+## Contributing
 
-* **Thijs Simonis** - *Initial work*
+Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
+
+## Credits
+
+- [Thijs Simonis](https://github.com/thijssimonis)
+- [All Contributors](../../contributors)
 
 ## License
 
-This project is licensed under the MIT License - see the [MIT license](license) file for details
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

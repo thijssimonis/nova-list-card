@@ -15,7 +15,7 @@
               v-for="(value, index) in row"
               :key="row.id + '-' + index"
               v-html="value"
-              v-if="index !== 'view'"
+              v-if="index !== 'view' && index !== 'edit'"
           />
           <td v-if="row.edit" class="td-fit text-right pr-6 align-middle">
             <a
